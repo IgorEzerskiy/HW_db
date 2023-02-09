@@ -17,7 +17,7 @@ INSERT INTO people (id, names, pwd, email, gender) VALUES (1, 'Vasya', '21341243
 SELECT 'This is' || ' ' ||  names  || ',' || CASE WHEN gender ='m' THEN ' he has email' ELSE ' she has email' END  || ' ' || email AS "INORMATION" FROM people;
 
 /*
-                  INORMATION
+                  INFORMATION
 -----------------------------------------------
  This is Vasya, he has email mmm@mmail.com
  This is Alex, he has email mmm@gmail.com
